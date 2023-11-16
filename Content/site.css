@@ -1,0 +1,132 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+.clear{
+    clear: both;
+}
+#header {
+    width: 100%;
+    height: 300px;
+    background-image: url("image.png");
+    background-size: cover;
+    background-position: top;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+#meno >ul > li{
+    float: right;
+    display: inline-block;
+    position: relative;
+}
+#meno ul li ul{
+    position: absolute;
+    width: 50px;
+    right: 75px;
+    top: 80px;
+    font-size: 14px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.2s ease-in-out;
+}
+#meno ul li ul li{
+    list-style: none;
+    padding: 9px 15px;
+    width: 100px; 
+    border-radius: 20px;
+    box-shadow: 0px 1px 6px#3f569c;
+    text-decoration: none;
+    border-bottom: 1px solid #ada9a9 ;
+    
+  }
+
+
+ul li a {
+    background-color: #161068;
+    color: #fff;
+    text-align: center;
+    font-family: 'Times New Roman' ;
+    font-size: 18px;
+    display: block;
+    width: 100px;
+    height:20px;
+    text-decoration: none;
+    margin: 10px 5px;
+    padding: 10px;
+    border-radius: 20px;
+}
+ul li a:hover{
+    transition: all 300ms;
+    background-color:#6b7cdb;
+   
+}
+#meno >ul > li:hover ul{
+    opacity: 1;
+    visibility: visible;
+    top: 50px;
+}
+#meno ul li ul li:hover{
+    background-color: #6b7cdb;
+    cursor: pointer;
+}
+#register{
+        float: left;
+        display: inline-block;
+        font-family: 'Times New Roman';
+        padding: 10px 20px;
+        background-color: #f09c28;
+        color: #fff;
+        font-size: 16px;
+        text-decoration: none;
+        border-radius: 10px;
+        border: none;
+        cursor: pointer;
+      }
+#register:hover {
+        background-color: #6b7cdb;
+      }
+.left-box {
+        float: left;
+        width: 40%; 
+    }
+.left-box img{
+    padding: 0 100px ;
+    height: auto;
+    }
+.right-box {
+        float: right;
+        width: 55%;
+        margin: 30px;
+        padding: 10px;
+        text-align: justify;
+        background-color: #f2f4f7;
+        box-sizing: border-box;
+        border-radius: 20px;
+        box-shadow:1px 1px 1px 1px #c0bfbf;
+        color: black;
+    
+    }
+.right-box h1{
+        color: #e48807;
+    }
+.right-box ul {
+        color: #211cac;
+    }
+#footer {
+    background-color: #c2bfbf;
+    padding: 5px;
+    text-align: center;
+    font-size: 14px;
+    }
+    
+    
+#footer span {
+        color: #4e4d4d;
+    }
+
